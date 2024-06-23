@@ -35,7 +35,7 @@ docker-compose up -d
 
 Con esto el contenedor se empezara a contruir y dentro de el la base de datos.
 
-<img src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/docker_db.png?ref_type=heads">
+<img src="https://github.com/ricardorom0195/ia-grimorios/blob/main/readme_images/docker_db.png?raw=true">
 
 Lo siguiente que hay que hacer es moverse a la ruta int/project y ejecutar lo siguiente:
 
@@ -53,13 +53,13 @@ uvicorn main:app --reload --host 127.0.0.1 --port 5001
 
 Al hacerlo nuestro servicios se levantaron en nuestro localhost en el puerto 5001 y las apis estan listas para recibir peticiones.
 
-<img src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/proyecto_arriba.png">
+<img src="https://github.com/ricardorom0195/ia-grimorios/blob/main/readme_images/proyecto_arriba.png?raw=true">
 
 ## Funcionamiento
 
 Para las pruebas de los servicos se puede obtar por usar postman o la misma documentación del proyecto en la url http://127.0.0.1:5001/ nos permite hacer peticiones.
 
-<img src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/Apis.png">
+<img src="https://github.com/ricardorom0195/ia-grimorios/blob/main/readme_images/Apis.png?raw=true">
 
 Para estas pruebas se utilizara postman y la colección para importar las apis se encuentra en la carpeta init en el archivo Magia.postman_collection.
 
@@ -69,37 +69,37 @@ Para este proyecto de crearon 6 apis test las cuales son:
 
 Se guardan por primera vez los datos del estudiante en base de datos
 
-<img src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/registro.png">
+<img src="https://github.com/ricardorom0195/ia-grimorios/blob/main/readme_images/registro.png?raw=true">
 
 ### Actualización de solicitud
 
 Permite modificar la data guardada en en el servicio de registro
 
-<img src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/update.png">
+<img src="https://github.com/ricardorom0195/ia-grimorios/blob/main/readme_images/update.png?raw=true">
 
 ### Borrado de solicitud
 
 Elimina el registro de solicitud del estudiante.
 
-<img src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/borrado.png">
+<img src="https://github.com/ricardorom0195/ia-grimorios/blob/main/readme_images/borrado.png?raw=true">
 
 ### Cambio de status de solicitud
 
 En esta api se puede aceptar o rechazar al estudiante, en caso de aceptarlo se le asignara un grimorio.
 
-<img src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/status.png">
+<img src="https://github.com/ricardorom0195/ia-grimorios/blob/main/readme_images/status.png?raw=true">
 
 ### Obteneción de solicitudes
 
 Trae todos los registros de solicitudes que se tengan en base de datos.
 
-<img src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/get_solicitudes.png">
+<img src="https://github.com/ricardorom0195/ia-grimorios/blob/main/readme_images/get_solicitudes.png?raw=true">
 
 ### Obteneción de asignaciones
 
 Nos trae los registros de grimorios y cuantos usuarios pertenecen a cada uno.
 
-<img src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/get_grimorios.png">
+<img src="https://github.com/ricardorom0195/ia-grimorios/blob/main/readme_images/get_grimorios.png?raw=true">
 
 ## Pruebas unitarias
 
@@ -112,4 +112,4 @@ pytest -v
 ```
 Al hacerlo comenzara la ejecución de las pruebas unitarias.
 
-<img src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/unit_test.png">
+<img src="https://github.com/ricardorom0195/ia-grimorios/blob/main/readme_images/unit_test.png?raw=true">
