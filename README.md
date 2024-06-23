@@ -55,11 +55,11 @@ Al hacerlo nuestro servicios se levantaron en nuestro localhost en el puerto 500
 
 ## Funcionamiento
 
-Para las pruebas de los servicos se puede obtar por usar postman o la misma documentación del proyecto en la url 127.0.0.1/docs nos permite hacer peticiones.
+Para las pruebas de los servicos se puede obtar por usar postman o la misma documentación del proyecto en la url http://127.0.0.1:5001/ nos permite hacer peticiones.
 
 <img src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/Apis.png">
 
-Para estas pruebas se utilizara postman y la colección para importar las apis se encuentra en la carpeta init en el archivo 127.0.0.1.
+Para estas pruebas se utilizara postman y la colección para importar las apis se encuentra en la carpeta init en el archivo Magia.postman_collection.
 
 Para este proyecto de crearon 6 apis test las cuales son:
 
