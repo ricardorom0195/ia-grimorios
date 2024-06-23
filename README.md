@@ -25,7 +25,7 @@ Para comenzar se va a levantar la base de datos postgresql la cual se tiene en u
 
 Desde la terminal debe ingresar a la siguiente ruta init/database, en la cual se encuentra lo necesario para levantar nuestra base de datos. Contamos también con un archivo .env el cual tiene las credenciales de la base de datos para cargar como variable de entorno en el contenedor. En este momento pueden realizar los ajustes que se requieran a las variables de entorno o pueden quedarse como están.
 
-<img src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/docker_env.png?ref_type=heads" alt="Variables de entorno" caption="Variables de entorno docker">
+<img src="https://github.com/ricardorom0195/ia-grimorios/blob/main/readme_images/docker_env.png?raw=true" alt="Variables de entorno" caption="Variables de entorno docker">
 
 Ahora solo se debe levantar el contenedor con el siguiente comando:
 
