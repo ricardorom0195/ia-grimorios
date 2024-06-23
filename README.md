@@ -23,6 +23,14 @@ Primeramente hacer un clone de este repositorio de la rama master.
 
 Para empezar se va a levantar primero la base de datos postgresql la cual se tiene en un contenedor docker, para esto se utilizara docker-compose.
 
-Desde la terminal debe ingresar a la siguiente ruta init/database, en la cual se encuentra lo necesario para levantar nuestra base de datos. Contamos también con un archivo .env el cual tiene las credenciales de la base de datos para cargar como variable de entorno en el contenedor.
+Desde la terminal debe ingresar a la siguiente ruta init/database, en la cual se encuentra lo necesario para levantar nuestra base de datos. Contamos también con un archivo .env el cual tiene las credenciales de la base de datos para cargar como variable de entorno en el contenedor. En este momento pueden realizar los ajustes que se requieran a las variables de entorno o pueden quedarse como están.
 
 <image src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/docker_env.png?ref_type=heads" alt="Variables de entorno" caption="Variables de entorno docker">
+
+Ahora solo se debe levantar el contenedor con el siguiente comando:
+
+```bash
+docker-compose up -d
+```
+
+Con esto el contenedor se empezara a contruir y dentro de el la base de datos.
