@@ -36,3 +36,9 @@ docker-compose up -d
 Con esto el contenedor se empezara a contruir y dentro de el la base de datos.
 
 <image src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/docker_db.png?ref_type=heads">
+
+<ol>
+        <li>Ubicado en terminal path /project</li>
+        <li>Ejecutar comando: python3 app.py</li>
+        <li><img src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/docker_db.png"></li>
+    </ol>
