@@ -1,0 +1,182 @@
+{
+	"info": {
+		"_postman_id": "92470f52-c57b-407b-a7f0-1d995da21f1b",
+		"name": "Magia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21975745"
+	},
+	"item": [
+		{
+			"name": "Registro de solicitud",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n  \"name\": \"Fidel\",\r\n  \"lastname\": \"Sanchez\",\r\n  \"magical_affinity\": \"Viento\",\r\n  \"identidication\": \"ffddd444\",\r\n  \"age\": 22\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5001/solicitud",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"solicitud"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar solicitud",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Christian\",\r\n  \"lastname\": \"Romero\",\r\n  \"magical_affinity\": \"Agua\",\r\n  \"identidication\": \"id34567\",\r\n  \"age\": 22\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5001/solicitud/79",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"solicitud",
+						"79"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar solicitud",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5001/solicitud/80",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"solicitud",
+						"80"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cambiar status",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"approved\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5001/solicitud/79/status",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"solicitud",
+						"79",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtencion de solicitudes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5001/solicitudes",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"solicitudes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtencion de grimorios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5001/asignaciones",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"asignaciones"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
