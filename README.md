@@ -35,4 +35,4 @@ docker-compose up -d
 
 Con esto el contenedor se empezara a contruir y dentro de el la base de datos.
 
-<image src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/docker_db.png?ref_type=heads" alt="Variables de entorno" caption="Variables de entorno docker">
+<image src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/docker_db.png?ref_type=heads">
