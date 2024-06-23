@@ -53,6 +53,8 @@ uvicorn main:app --reload --host 127.0.0.1 --port 5001
 
 Al hacerlo nuestro servicios se levantaron en nuestro localhost en el puerto 5001 y las apis estan listas para recibir peticiones.
 
+<img src="https://gitlab.com/prueba_ia/grimonios/-/raw/main/readme_images/proyecto_arriba.png">
+
 ## Funcionamiento
 
 Para las pruebas de los servicos se puede obtar por usar postman o la misma documentación del proyecto en la url http://127.0.0.1:5001/ nos permite hacer peticiones.
