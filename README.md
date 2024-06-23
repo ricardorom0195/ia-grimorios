@@ -21,6 +21,8 @@ Primeramente hacer un clone de este repositorio de la rama master.
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+Para empezar se va a levantar primero la base de datos postgresql la cual se tiene en un contenedor docker, para esto se utilizara docker-compose.
 
-_Dí cómo será ese paso
+Desde la terminal debe ingresar a la siguiente ruta init/database, en la cual se encuentra lo necesario para levantar nuestra base de datos. Contamos también con un archivo .env el cual tiene las credenciales de la base de datos para cargar como variable de entorno en el contenedor.
+
+<image src="readme_images/docker_env.png" alt="Variables de entorno" caption="Variables de entorno docker">
